@@ -1,53 +1,32 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<title>rem - My Homepage</title>
-		<link rel="stylesheet" type="text/css" href="css/main.css">
+    <meta http-equiv="Cache-control" content="no-cache">
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+		<title>rem's site</title>
+		<link rel="stylesheet" type="text/css" href="style/main.css">
 	</head>
 
-
-    <nav>
-      <ul id="navbar">
-        <li><a href="#welcome-section" rel="internal">Intro</a></li>
-        <li><a href="#projects" rel="internal">Projects</a></li>
-        <li><a href="#contact" rel="internal">Contact</a></li>
-      </ul>
-    </nav>
-  
-
 <body>
-  <div id="welcome-section" >
-    <h1>Welcome to my GitHub homepage.</h1>
+    <!--Navigation bar-->
+  <div id="nav-placeholder">
+
+  </div>
+
+  <script>
+  $(function(){
+    $("#nav-placeholder").load("/src/navbar/navbar.html");
+  });
+  </script>
+
+  <div id="title" class="title" >
+    <h1>hello!</h1>
+  </div>
+
+  <div id="subtitle" class="subtitle" >
     <p>im remmy, but you can call me rem.</p>
-  </div>
+    <p>and this is my site!</p>
+    </div>
 
-<div id="projects" class="work">
-<h2 class="work-header">Here are some things I've made/worked on.</h2>
-  <a href="https://beefers.github.io/ovensite" target="_blank" class="project project-tile">
-    <img class="project-pic" src="https://raw.githubusercontent.com/Beefers/beefers.github.io/main/assets/OvenForumImage.png" alt="project">
-    <div class="project-title">Oven - a Discord bot.</div>
-  </a>
-
-  <a href="https://github.com/Beefers/WinCMD" target="_blank" class="project project-tile">
-    <img class="project-pic" src="https://images.wallpaperscraft.com/image/code_programming_symbols_140997_1920x1080.jpg" alt="project">
-    <div class="project-title">WinCMD - an open-source CLI.</div>
-  </a>
-
-  <a href="https://github.com/Beefers/DiscordStuff" target="_blank" class="project project-tile">
-    <img class="project-pic" src="https://i.pinimg.com/originals/38/77/b0/3877b07e5d85996fe26635cacaf7c93d.gif" alt="project">
-    <div class="project-title">DiscordStuff - it's in the name.</div>
-  </a>
-
-  <a href="https://github.com/Beefers?tab=repositories" class="show-all" target="_blank">My projects</a>
-</div>
-
-  <div class="contact">
-  <div class="header">
-    <h1>Contact me.</h1>
-    <p>Doesn't matter if you need support or just wanna talk!</p>
-  </div>
-  <a id='profile-link' href="https://github.com/Beefers" target="_blank" class="contact-details"><img src="https://res.cloudinary.com/noethix/image/upload/v1537359418/GitHub-Mark-64px.png"></a> 
-  <a href="https://dsc.bio/remmy" class="contact-details" ><img src="https://raw.githubusercontent.com/Beefers/beefers.github.io/main/assets/compressiongobrr.png"></a>
-</div>
- </body>
+</body>
 </html>
