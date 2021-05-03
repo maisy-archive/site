@@ -4,9 +4,15 @@
     padding: 10px;
 }
 
-a {
+.navButton {
     padding: 5px;
     border-radius: 8px;
     background-color: #303030;
     color: #fff;
+}
+
+.imgButton {
+    vertical-align: middle;
+    float: right;
+    margin-left: 5px;
 }
