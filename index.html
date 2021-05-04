@@ -2,45 +2,62 @@
 <html>
 	<head>
     <meta http-equiv="Cache-control" content="no-cache">
-    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+
+    <meta property="og:title" content="rem's site" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://rem-my.github.io" />
+    <meta property="og:image" content="https://rem-my.github.io/assets/siteLogo.png" />
+    <meta property="og:description" content="I'm remmy, but you can call me rem. And this is my site!" />
+    <meta name="theme-color" content="#FF7600">
+
+    <meta name="twitter:card" content="summary_large_image">
+
 		<title>rem's site</title>
+
 		<link rel="stylesheet" type="text/css" href="style/main.css">
 	</head>
 
 <body>
-    <!--Navigation bar-->
-  <div id="nav-placeholder">
-
-  </div>
-
+<!--Navbar-->
+  <div id="nav-placeholder"></div>
   <script>
-  $(function(){
-    $("#nav-placeholder").load("/src/navbar/navbar.html");
-  });
+  fetch('/src/navbar/navbar.html')
+    .then(function(response) {
+      return response.text();
+    })
+    .then(function(body) {
+      document.querySelector('#nav-placeholder').innerHTML = body;
+    });
   </script>
 
+<!--Main Title-->
   <div id="title" class="title" >
+    <img src="/assets/siteLogo.png" width="128" height="128" >
     <h1>Hello!</h1>
-    <p>I'm remmy, but you can call me rem. And this is my site!</p>
+    <p>I'm remmy, but you can call me rem. And this is my site!</p> 
   </div>
 
+<!--Projects Title-->
   <div id="projectsTitle" class="projectsTitle" >
     <h2>Projects</h2>
   </div>
 
+<!--Projects Section-->
+
+<!--ZMD Card-->
   <div class="container">
-    <a href="//github.com/zmd" target="_blank">
-        <div class="item" style='background: url("/assets/zmd.png")'>
-            <div class="cardTitle">
-                ZMD
-            </div>
-            <div class="spacer"></div>
-            <div class="description">
-                A custom, open source command line for Windows in pure batch.
-            </div>
-        </div>
-    </a>
-</div>
+      <a href="//github.com/zmd" target="_blank">
+          <div class="item" style='background: url("/assets/zmd.png")'>
+              <div class="cardTitle">
+                  ZMD
+              </div>
+              <div class="spacer"></div>
+              <div class="description">
+                  A custom, open source command line for Windows in pure batch.
+              </div>
+          </div>
+      </a>
+  </div>
 
 </body>
 </html>
