@@ -1,4 +1,5 @@
 <svelte:head>
+
     <link href="/src/style/main.css" rel="stylesheet" />
 	<title>rem's site</title>
 
@@ -15,24 +16,31 @@
 
 </svelte:head>
 
-<body>
+<script>
+    import GitHubLogo from "/src/components/githubLogo.svelte"
+    import DiscordLogo from "/src/components/discordLogo.svelte"
+</script>
+
+<nav>
     <div id="navbar" class="navbar" >
         <a class="navButton" href="/">Home</a>
-        <a class="navButton" href="/src/main/credits/">Site credits</a>
-        <a class="imgButton" href="https://github.com/rem-my/" target="_blank" >
-            <img class="gh-logo" src="/src/assets/github.png" alt="GitHub" width="20" height="20">
-        </a>
-        <a class="imgButton" href="https://discord.com/users/257109471589957632" target="_blank" >
-            <img class="dc-logo" src="/src/assets/discord.png" alt="Discord" width="20" height="20">
-        </a>
+        <a class="navButton" href="credits">Site credits</a>
+        <GitHubLogo repo="" />
+        <DiscordLogo/>
     </div>
-</body>
+</nav>
+
+<main>
+    <div class="container">
+    <slot/>
+    </div>
+</main>
 
 <style>
     .navbar {
-    background-color: #202020;
-    color: #fff;
-    padding: 10px;
+        background-color: #202020;
+        color: #fff;
+        padding: 10px;
     }
 
     .navButton {
@@ -40,11 +48,5 @@
         border-radius: 8px;
         background-color: #303030;
         color: #fff;
-    }
-
-    .imgButton {
-        vertical-align: middle;
-        float: right;
-        margin-left: 5px;
     }
 </style>
