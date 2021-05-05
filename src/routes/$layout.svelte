@@ -1,6 +1,6 @@
 <svelte:head>
 
-    <link href="/static/main.css" rel="stylesheet" />
+    <link href="/main.css" rel="stylesheet" />
 	<title>rem's site</title>
 
     <meta http-equiv="Cache-control" content="no-cache">
