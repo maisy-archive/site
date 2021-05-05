@@ -3,7 +3,7 @@
 </script>
 
 <a class="imgButton" href="//discord.com/users/{userID}" target="_blank">
-	<img src="/src/assets/discord.png" alt="Discord" />
+	<img src="/static/assets/discord.png" alt="Discord" />
 </a>
 
 <style>

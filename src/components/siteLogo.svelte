@@ -3,7 +3,7 @@
     export let height;
 </script>
 
-<img class="siteLogo" src="/src/assets/siteLogo.png" alt="fox" width="{width}" height="{height}">
+<img class="siteLogo" src="/static/assets/siteLogo.png" alt="fox" width="{width}" height="{height}">
 
 <style>
 .siteLogo {

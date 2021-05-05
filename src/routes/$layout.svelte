@@ -1,14 +1,14 @@
 <svelte:head>
 
-    <link href="/src/style/main.css" rel="stylesheet" />
+    <link href="/static/main.css" rel="stylesheet" />
 	<title>rem's site</title>
 
     <meta http-equiv="Cache-control" content="no-cache">
 
     <meta property="og:title" content="rem's site" />
     <meta property="og:type" content="website" />
-    <meta property="og:url" content="https://rem-my.github.io" />
-    <meta property="og:image" content="https://rem-my.github.io/src/assets/siteLogo.png" />
+    <meta property="og:url" content="https://remmy.vercel.app" />
+    <meta property="og:image" content="https://remmy.vercel.app/static/assets/siteLogo.png" />
     <meta property="og:description" content="I'm remmy, but you can call me rem. And this is my site!" />
     <meta name="theme-color" content="#FF7600">
 

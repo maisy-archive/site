@@ -4,7 +4,7 @@
 </script>
 
 <a class="imgButton" href="//github.com/{user}/{repo}" target="_blank">
-	<img src="/src/assets/github.png" alt="GitHub" />
+	<img src="/static/assets/github.png" alt="GitHub" />
 </a>
 
 <style>

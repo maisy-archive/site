@@ -2,7 +2,7 @@
 <h1 class=svelteTitle>welcome to svelte land</h1>
 <h2>we like svelte here</h2>
 
-<img src="/src/assets/thecoolerhtml.png" alt="wooo, svelte">
+<img src="/static/assets/thecoolerhtml.png" alt="wooo, svelte">
 </body>
 
 <style>
