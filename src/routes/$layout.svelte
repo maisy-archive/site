@@ -2,6 +2,7 @@
 
     <link href="/main.css" rel="stylesheet" />
 	<title>rem's site</title>
+    <link rel="icon" type="image/x-icon" href="/favicon.ico" />
 
     <meta http-equiv="Cache-control" content="no-cache">
 
@@ -11,8 +12,6 @@
     <meta property="og:image" content="https://remmy.vercel.app/assets/siteLogo.png" />
     <meta property="og:description" content="I'm remmy, but you can call me rem. And this is my site!" />
     <meta name="theme-color" content="#FF7600">
-
-    <meta name="twitter:card" content="summary_large_image">
 
 </svelte:head>
 
