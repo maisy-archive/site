@@ -6,8 +6,13 @@
 		{
 			title: 'ZMD',
 			description: 'A custom, open source command line for Windows.',
-      img: '/src/assets/zmd.png',
+			img: '/src/assets/zmd.png',
 			link: '//github.com/zmd-org/'
+		},
+		{
+			title: 'Discord Themes and Plugins',
+			img: '/src/assets/zmd.png',
+			link: '//github.com/rem-cord/'
 		},
 	];
 </script>
@@ -42,3 +47,10 @@
 </div>
   
 </body>
+
+<style>
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+</style>

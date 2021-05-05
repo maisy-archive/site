@@ -1,8 +1,14 @@
-<img class="siteLogo" src="/src/assets/siteLogo.png" alt="fox">
+<script>
+    export let width;
+    export let height;
+</script>
+
+<img class="siteLogo" src="/src/assets/siteLogo.png" alt="fox" width="{width}" height="{height}">
 
 <style>
 .siteLogo {
-    width:  8rem;
-    height: 8rem;
+	vertical-align: middle;
+    margin-left: 5px;
+    margin-right: 5px;
 }
 </style>

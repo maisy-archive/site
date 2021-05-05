@@ -9,10 +9,8 @@
 
 <style>
 img {
-	vertical-align: baseline;
-    margin-left: 5px;
+	vertical-align: middle;
     width: 20px;
     height: 20px;
-    float: right;
 }
 </style>
