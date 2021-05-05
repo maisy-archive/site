@@ -7,3 +7,11 @@ const config = {
 };
 
 export default config;
+
+import vercel from '@sveltejs/adapter-vercel';
+
+export default {
+	kit: {
+		adapter: vercel()
+	}
+};
