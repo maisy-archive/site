@@ -7,7 +7,7 @@
 			title: 'ZMD',
 			description: 'A custom, open source command line for Windows.',
 			img: '/assets/zmd.png',
-			link: '//github.com/zmd-org/'
+			link: '/projects/zmd'
 		},
 		{
 			title: 'Discord Themes and Plugins',

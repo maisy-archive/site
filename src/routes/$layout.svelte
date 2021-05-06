@@ -2,7 +2,7 @@
 
     <link href="/main.css" rel="stylesheet" />
 	<title>rem's site</title>
-    <link rel="icon" type="image/x-icon" href="/static/favicon.ico" />
+    <link rel="icon" href="/favicon.ico" />
 
     <meta http-equiv="Cache-control" content="no-cache">
 
@@ -28,7 +28,7 @@
             <SiteLogo width="20px" height="20px"/>
         </a>
         <a class="navButton" href="/">Home</a>
-        <a class="navButton" href="credits">Site credits</a>
+        <a class="navButton" href="/credits">Site credits</a>
         <div class=buttonContainer>
             <GitHubLogo repo="" />
             <DiscordLogo/>
