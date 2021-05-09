@@ -23,6 +23,6 @@
     <!--Contributor Heading-->
             <div id="contrib" class="contrib">
                 <h3>Yellowsink</h3>
-                <div>Project cards design <GithubLogo user="cainy-a" repo=""/></div>
+                <div>Project cards design <GithubLogo user="yellowsink" repo=""/></div>
             </div>
 </body>

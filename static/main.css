@@ -20,3 +20,10 @@ a {
 a:hover {
     color: #3786fd;
 }
+
+code {
+  font-size: 16px;
+  background-color: #212121;
+  padding: 3px;
+  border-radius: 4px;
+}

@@ -42,5 +42,9 @@
     background-color: #404040;
     color: #fff;
     cursor: pointer;
+    transition: color ease .2s;
+}
+.closeButton:hover {
+    color: rgb(204, 204, 204);
 }
 </style>

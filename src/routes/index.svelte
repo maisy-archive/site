@@ -19,7 +19,7 @@
 
 	let listItems = [
 		{
-			text: 'A guide on how to install Windows 10 from the command line.',
+			text: 'A guide on how to install Windows 10 manually.',
 			link: '/guides/win10/'
 		},
 	];

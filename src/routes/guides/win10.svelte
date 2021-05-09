@@ -72,14 +72,13 @@
         <Highlight code="TODO: put an image here" />
         Load the hives <code>SOFTWARE</code> and <code>SYSTEM</code>, located at <code>C:\System32\config</code>. Give them the names <code>SOFT</code> and <code>SYS</code> respectively.
         <Highlight code="TODO: put an image here" />
+        <br>
 
         <h3>7. Modifying the Registry</h3>
         <strong>I would recommend following the video tutorial here. It shows what you need to do a little easier.</strong>
         <p>In the <code>SOFT</code> hive we just loaded, go to <code>Microsoft\Windows\CurrentVersion\Policies\System</code> and add a new DWORD. Name it <code>VerboseStatus</code> and give it a value of 1.</p>
-        Set the already existing DWORD named <code>EnableCursorSuppression</code> and set the value to 0.
-        <p>Next, we modify the cmdline. </p>
-        In to the <code>SYS</code> hive we made earlier, go to <code>Setup</code> and change the CmdLine DWORD's value to <code>cmd.exe</code>.
-        Then, reboot with:
+        Set the value of the alreadt existing DWORD named <code>EnableCursorSuppression</code> to 0.
+        <p>Next, in to the <code>SYS</code> hive we made earlier, go to <code>Setup</code> and change the CmdLine DWORD's value to <code>cmd.exe</code>. Then, reboot with: </p>
         <Highlight code="wpeutil reboot" />
         <br>
 
@@ -94,7 +93,7 @@
         <br>
 
         <h3>Modifying the Registry Part 2: Electric Boogaloo</h3>
-        Start regedit once again. We're going to set 3 values to 0.
+        Start Registry Editor once again. We're going to set 3 values to 0.
         <Highlight code="regedit" />
         Navigate to <code>HKEY_LOCAL_MACHINE\SYSTEM\Setup</code> and set <code>OobeInProgress</code>, <code>SetupType</code> and <code>SystemSetupInProgress</code> to 0.
         <p>Once you're done, exit regedit and the Command Prompt.</p>
@@ -110,3 +109,7 @@
         And, just like that, you've manually installed Windows 10! We even skipped most of the OOBE!
     </div>
 </body>
+
+<style>
+
+</style>
