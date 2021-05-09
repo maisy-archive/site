@@ -11,10 +11,12 @@ body {
   color: #fff;
 }
 
-.title h1 {
-  font-size: 48px;
+a {
+	color: #60aaff;
+  text-decoration: none;
+  transition: color ease .2s;
 }
 
-.title p {
-  font-size: 24px;
+a:hover {
+    color: #3786fd;
 }

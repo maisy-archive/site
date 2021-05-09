@@ -6,7 +6,7 @@
 
 <div class="banner" style="background: {colour}">
     <div class="left">
-        <b class="subtitle">{content}</b>
+        <div class="subtitle">{content}</div>
     </div>
     <div class="right">
         <div onClick='this.parentElement.parentElement.style.display = "none"' class="closeButton">x</div>
@@ -41,5 +41,6 @@
     border-radius: 8px;
     background-color: #404040;
     color: #fff;
+    cursor: pointer;
 }
 </style>

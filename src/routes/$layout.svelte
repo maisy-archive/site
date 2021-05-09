@@ -56,9 +56,15 @@
         border-radius: 8px;
         background-color: #303030;
         color: #fff;
+        transition: color ease .2s;
     }
+
+    .navButton:hover {
+        color: rgb(204, 204, 204);
+    }
+
     .buttonContainer {
-    margin-left: 5px;
-    float: right;
+        margin-left: 5px;
+        float: right;
     }
 </style>

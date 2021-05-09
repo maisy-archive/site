@@ -1,6 +1,7 @@
 <script>
   import ProjectCard from "/src/components/projectCard.svelte";
-  import PageTitle   from "/src/components/pageTitle.svelte"
+  import PageTitle   from "/src/components/pageTitle.svelte";
+  import ListBox	 from "/src/components/listBox.svelte";
 
   let cardLinks = [
 		{
@@ -13,6 +14,13 @@
 			title: 'Discord Themes and Plugins',
 			img: '/assets/zmd.png',
 			link: '//github.com/rem-cord/'
+		},
+	];
+
+	let listItems = [
+		{
+			text: 'A guide on how to install Windows 10 from the command line.',
+			link: '/guides/win10/'
 		},
 	];
 </script>
@@ -46,11 +54,27 @@
 {/each}
 </div>
   
+<!--Other things-->
+<div id="listTitle" class="listTitle" >
+    <h2>Other things</h2>
+  </div>
+
+<div class="list-container">
+{#each listItems as link}
+	<ListBox text="{link.text}" link="{link.link}"/>
+{/each}
+</div>
+
 </body>
 
 <style>
 .card-container {
     display: flex;
     flex-wrap: wrap;
+}
+.list-container {
+    display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
 }
 </style>

@@ -1,8 +1,6 @@
 <script>
 	  export let link;
     export let img;
-    export let name;
-    export let description;
     export let showDescription = false;
 </script>
 
@@ -64,5 +62,10 @@
 
 a {
   color: unset;
+  transition: color ease .2s;
+}
+
+a:hover {
+  color: rgb(204, 204, 204);
 }
 </style>

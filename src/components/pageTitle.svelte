@@ -14,7 +14,8 @@
         flex: 1;
     }
      h1 {
-         font-size: 3em;
-         margin-top: 15px;
+        font-size: 3em;
+        margin-top: 15px;
+        margin-bottom: 2px;
      }
 </style>
