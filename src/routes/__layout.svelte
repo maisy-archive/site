@@ -4,6 +4,8 @@
 	<title>rem's site</title>
     <link rel="icon" href="/favicon.ico" />
 
+    <meta http-equiv="Cache-control" content="no-cache">
+
     <meta property="og:title" content="rem's Webite" />
     <meta property="og:type" content="website" />
     <meta property="og:url" content="https://rem.catmaid.live" />
