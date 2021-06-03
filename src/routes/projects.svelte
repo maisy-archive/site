@@ -57,13 +57,13 @@ Projects Page
     .card-container {
         display: flex;
         flex-wrap: wrap;
-        animation: fadeInLeft 0.75s ease-out;
+        animation: fadeIn 0.75s ease-out;
     }
     .list-container {
         display: flex;
         flex-direction: column;
         flex-wrap: wrap;
-        animation: fadeInRight 0.75s ease-out;
+        animation: fadeIn 0.75s ease-out;
     }
 
     @keyframes fadeInLeft {
@@ -74,5 +74,10 @@ Projects Page
     @keyframes fadeInRight {
         0% {opacity: 0; transform: translateX(180px)}
         100% {opacity: 1; transform: translateX(0px);}
+    }
+
+    @keyframes fadeIn {
+        0% {opacity: 0; transform: translateY(80px)}
+        100% {opacity: 1; transform: translateY(0px);}
     }
 </style>

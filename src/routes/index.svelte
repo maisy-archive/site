@@ -13,8 +13,7 @@ Main Page
         <div onClick="this.remove(); alert('You monster. You killed him.'); window.location = '//www.youtube.com/watch?v=qYS0EeaAUMw'">
             <SiteLogo width="180px" height="180px"/>
         </div>
-        <h1>Hello world!</h1>
-        <h2>I'm remmy, but you can call me rem. And this is my site!</h2>
+        <h1>Hello world!</h1> <h2>I'm remmy, but you can call me rem. And this is my site!</h2>
 
         <div class="buttonContainer">
             <TextButton text="My projects" href="/projects"/>
@@ -33,12 +32,13 @@ Main Page
     }
 
     .pageTitle * {
+        margin: 15px;
         animation: fadeIn 0.75s ease-out;
     }
 
     .pageTitle h1 {
         font-size: 5em;
-        line-height: 5px;
+        /* line-height: 5px; */
         text-overflow: ellipsis;
     }
 
