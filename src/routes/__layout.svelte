@@ -1,16 +1,16 @@
 <svelte:head>
 
     <link href="/main.css" rel="stylesheet" />
-	<title>rem's site</title>
+	<title>Beef's Website</title>
     <link rel="icon" href="/favicon.ico" />
 
     <meta http-equiv="Cache-control" content="no-cache">
 
-    <meta property="og:title" content="rem's Website" />
+    <meta property="og:title" content="Beef's Website" />
     <meta property="og:type" content="website" />
-    <meta property="og:url" content="https://rem.catmaid.live" />
-    <meta property="og:image" content="https://rem.catmaid.live/assets/siteLogo.png" />
-    <meta property="og:description" content="I'm remmy, but you can call me rem. And this is my site!" />
+    <meta property="og:url" content="https://beef.vercel.app" />
+    <meta property="og:image" content="https://beef.vercel.app/assets/siteLogo.png" />
+    <meta property="og:description" content="I'm Beef, and this is my site!" />
     <meta name="theme-color" content="#FF7600">
 
 </svelte:head>

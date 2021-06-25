@@ -1,5 +1,5 @@
 <!-- 
-rem's website
+Beef's Website
 Main Page 
 -->
 
@@ -13,7 +13,7 @@ Main Page
         <div onClick="this.remove(); alert('You monster. You killed him.'); window.location = '//www.youtube.com/watch?v=qYS0EeaAUMw'">
             <SiteLogo width="180px" height="180px"/>
         </div>
-        <h1>Hello world!</h1> <h2>I'm remmy, but you can call me rem. And this is my site!</h2>
+        <h1>Hello world!</h1> <h2>I'm Beef, and this is my site!</h2>
 
         <div class="buttonContainer">
             <TextButton text="My projects" href="/projects"/>

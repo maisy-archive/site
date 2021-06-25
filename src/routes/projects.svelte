@@ -1,5 +1,5 @@
 <!-- 
-rem's website
+Beef's Website
 Projects Page 
 -->
 
@@ -14,25 +14,25 @@ Projects Page
 			link: '/projects/zmd/'
 		},
         {
-			title: 'Discord Labs',
+			title: 'Labscord',
 			description: 'A group of Discord users researching and documenting new Discord features.',
-			link: '//github.com/discord-labs/'
+			link: '//github.com/labscord/'
 		},
         {
 			title: 'dcjs',
 			description: 'A discord cli client written in JS. Warning, very WIP.',
-			link: '//github.com/rem-my/dcjs/'
+			link: '//github.com/Beefers/dcjs/'
 		},
 		{
 			title: 'Discord Themes and Plugins',
             description: 'My plugins and themes I\'ve created/developed for use with client mods.',
-			link: '//github.com/rem-cord/'
+			link: '//github.com/beef-cord/'
 		},
 	];
 
     let listItems = [
 		{
-			text: 'A guide on how to install Windows 10 manually.',
+			text: 'A guide on how to install Windows 10 manually. Should also work with Windows 11!',
 			link: '/guides/win10/'
 		},
 	];
