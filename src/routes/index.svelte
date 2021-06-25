@@ -10,7 +10,7 @@ Main Page
 
 <body>
     <div class="pageTitle">
-        <div onClick="this.remove(); alert('You monster. You killed him.'); window.location = '//www.youtube.com/watch?v=qYS0EeaAUMw'">
+        <div onClick="this.remove(); alert('Did you enjoy what you just did? Was the beef tasty? Repent.'); window.location = '//www.youtube.com/watch?v=qYS0EeaAUMw'">
             <SiteLogo width="180px" height="180px"/>
         </div>
         <h1>Hello world!</h1> <h2>I'm Beef, and this is my site!</h2>

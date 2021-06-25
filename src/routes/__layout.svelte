@@ -11,7 +11,7 @@
     <meta property="og:url" content="https://beef.vercel.app" />
     <meta property="og:image" content="https://beef.vercel.app/assets/siteLogo.png" />
     <meta property="og:description" content="I'm Beef, and this is my site!" />
-    <meta name="theme-color" content="#FF7600">
+    <meta name="theme-color" content="#f74242">
 
 </svelte:head>
 
