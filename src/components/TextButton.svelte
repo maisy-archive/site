@@ -7,21 +7,21 @@
 
 <a class="text-button" href={href}>
     {#if src}
-        <img src={src} alt={alt} width="20px" height="20px"/> 
+        <img src={src} alt={alt} width="22px" height="22px"/> 
     {/if}
     {text}
 </a>
 
 <style>
     .text-button {
+        text-align: center;
         background-color: var(--accent);
         padding: 5px;
-        padding-left: 8px;
-        padding-right: 8px;
-        margin-right: 5px;
+        padding-left: 10px;
+        padding-right: 10px;
+        margin-right: 10px;
         border-radius: 16px;
         text-decoration: none;
-        overflow: ellipsis;
         color: var(--foreground);
         transition: 0.3s ease-in-out;
     }

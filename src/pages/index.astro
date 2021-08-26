@@ -31,25 +31,17 @@ import SiteLogo from '../components/SiteLogo.svelte'
 
   <style>
       .page-title {
-          margin: 0;
           margin-top: 70px;
           height: 100%;
           width: 100%;
       }
 
       .page-title * {
-          margin: 15px;
           animation: fadeIn 0.75s ease-out;
       }
 
-      .page-title h1 {
-          font-size: 5em;
-          /* line-height: 5px; */
-          text-overflow: ellipsis;
-      }
-
-      .page-title h2 {
-          font-size: 1.5em;
+      .button-container {
+          display: flex;
       }
   </style>
   </head>
@@ -57,18 +49,18 @@ import SiteLogo from '../components/SiteLogo.svelte'
     <header>
       <NavBar/>
     </header>
+
     <main>
       <div class="page-title">
-
         <div onClick="this.remove(); alert('Did you enjoy what you just did? Was the beef tasty? Repent.'); window.location = '//www.youtube.com/watch?v=qYS0EeaAUMw'">
             <SiteLogo width="180px" height="180px"/>
         </div>
-        <h1>Hello world!</h1> <h2>I'm Beef, and this is my site!</h2>
-        <br>
+        <h1>Hello world!</h1> <h2>I'm Beef.</h2><p>I'm an aspiring developer who specialises in JavaScript. I code for fun, and to learn new skills.</p>
         <div class="button-container">
-            <TextButton text="My projects" href="/projects"/>
+            <TextButton text="About this site" href="/about"/>
         </div>
       </div>
     </main>
+
   </body>
 </html>

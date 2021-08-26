@@ -1,0 +1,48 @@
+---
+// Svelte Component Imports
+import NavBar from '../components/NavBar.svelte'
+
+
+// Full Astro Component Syntax:
+// https://docs.astro.build/core-concepts/astro-components/
+---
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width"
+    />
+
+    <link rel="stylesheet" href="/main.css" />
+    <title>Beef's Website | About</title>
+    <link rel="icon" type="image/x-icon" href="/favicon.ico" />
+    <meta http-equiv="Cache-control" content="no-cache">
+
+    <style>
+      .page-title {
+          margin-top: 70px;
+          height: 100%;
+          width: 100%;
+      }
+
+      .page-title * {
+          animation: fadeIn 0.75s ease-out;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <NavBar/>
+    </header>
+
+    <main>
+      <div class="page-title">
+        <h1>About this site</h1>
+        
+        <p>Originally, this site was written in HTML/CSS/JS. Then, I ported the whole site directly to <a href="//kit.svelte.dev/">SvelteKit</a>, with very little visual changes.</p>
+        <p>However, I eventually got bored with the design I chose. So, I rewrote the whole site - still using <a href="//kit.svelte.dev/">SvelteKit</a>, but with a new design, based on <a href="//draculatheme.com/contribute">Dracula</a>.</p>
+        <p>This version of the site is a refresh based on that previous design, but now using <a href="//svelte.dev">Svelte</a> and <a href="//astro.build">Astro</a>.<p>
+    </main>
+  </body>
+</html>

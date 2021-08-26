@@ -14,12 +14,13 @@
 <style>
     .navbar {
         background-color: var(--background-alt);
-        color: #fff;
-        padding-top: 10px;
-        padding-bottom: 10px;
-        padding-left: 5px;
-        padding-right: 5px;
+        color: var(--foreground);
+        padding: 5px;
         border-radius: 32px;
         z-index: 999;
+    }
+
+    .button-container {
+        display: flex;
     }
 </style>

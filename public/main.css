@@ -34,6 +34,7 @@ Global CSS
 
 html, body {
     background-color: var(--background);
+    font-size: 18px;
     color: var(--foreground);
     font-family: JetBrainsLight;
 }
@@ -46,6 +47,18 @@ a {
   
 a:hover {
     color: var(--pink);
+}
+
+h1 {
+    font-size: 5em;
+    margin-bottom: 5px;
+    /* line-height: 5px; */
+    text-overflow: ellipsis;
+}
+
+h2 {
+    margin-top: 5px;
+    font-size: 1.5em;
 }
 
 ::selection {
