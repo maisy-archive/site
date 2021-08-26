@@ -1,0 +1,74 @@
+---
+// Svelte Component Imports
+import NavBar from '../components/NavBar.svelte'
+import TextButton from '../components/TextButton.svelte'
+import SiteLogo from '../components/SiteLogo.svelte'
+
+
+// Full Astro Component Syntax:
+// https://docs.astro.build/core-concepts/astro-components/
+---
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width"
+    />
+
+    <link rel="stylesheet" href="/main.css" />
+	  <title>Beef's Website</title>
+    <link rel="icon" type="image/x-icon" href="/favicon.ico" />
+
+    <meta http-equiv="Cache-control" content="no-cache">
+
+    <meta property="og:title" content="Beef's Website" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://beefers.ml" />
+    <meta property="og:image" content="https://beef.vercel.app/assets/siteLogo.png" />
+    <meta property="og:description" content="I'm Beef, and this is my site!" />
+    <meta name="theme-color" content="#f74242">
+
+  <style>
+      .page-title {
+          margin: 0;
+          margin-top: 70px;
+          height: 100%;
+          width: 100%;
+      }
+
+      .page-title * {
+          margin: 15px;
+          animation: fadeIn 0.75s ease-out;
+      }
+
+      .page-title h1 {
+          font-size: 5em;
+          /* line-height: 5px; */
+          text-overflow: ellipsis;
+      }
+
+      .page-title h2 {
+          font-size: 1.5em;
+      }
+  </style>
+  </head>
+  <body>
+    <header>
+      <NavBar/>
+    </header>
+    <main>
+      <div class="page-title">
+
+        <div onClick="this.remove(); alert('Did you enjoy what you just did? Was the beef tasty? Repent.'); window.location = '//www.youtube.com/watch?v=qYS0EeaAUMw'">
+            <SiteLogo width="180px" height="180px"/>
+        </div>
+        <h1>Hello world!</h1> <h2>I'm Beef, and this is my site!</h2>
+        <br>
+        <div class="button-container">
+            <TextButton text="My projects" href="/projects"/>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
