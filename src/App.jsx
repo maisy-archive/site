@@ -12,7 +12,7 @@ import SmileyIcon from "@material-design-icons/svg/round/emoji_emotions.svg";
 import EngineeringIcon from "@material-design-icons/svg/round/engineering.svg";
 
 // Routes
-import IndexRoute from "./routes";
+import IndexRoute from "./routes/Index";
 import AboutRoute from "./routes/About";
 import CreditsRoute from "./routes/Credits";
 import NotFoundRoute from "./routes/NotFound"
