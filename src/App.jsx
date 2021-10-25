@@ -7,33 +7,41 @@ import "virtual:windi-devtools";
 import Navbar from "./components/Navbar";
 
 // Icons
-import HouseIcon from "@material-design-icons/svg/round/house.svg";
+import HomeIcon from "@material-design-icons/svg/round/home.svg";
 import SmileyIcon from "@material-design-icons/svg/round/emoji_emotions.svg";
 import EngineeringIcon from "@material-design-icons/svg/round/engineering.svg";
+import BlogIcon from "@material-design-icons/svg/round/feed.svg"
 
 // Routes
 import IndexRoute from "./routes/Index";
 import AboutRoute from "./routes/About";
+import BlogRoute from "./routes/Blog";
 import CreditsRoute from "./routes/Credits";
-import NotFoundRoute from "./routes/NotFound"
+import NotFoundRoute from "./routes/NotFound";
 
 const routes = [
     {
         path: "/",
         component: IndexRoute,
-        name: "",
-        icon: HouseIcon,
+        name: "Home",
+        icon: HomeIcon,
     },
     {
         path: "/about",
         component: AboutRoute,
-        name: "",
+        name: "About",
         icon: SmileyIcon,
+    },
+    {
+        path: "/blog",
+        component: BlogRoute,
+        name: "Blog",
+        icon: BlogIcon,
     },
     {
         path: "/credits",
         component: CreditsRoute,
-        name: "",
+        name: "Credits",
         icon: EngineeringIcon,
     },
     {
