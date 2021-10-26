@@ -1,5 +1,11 @@
-export default function() {
-    return (
+import SmileyIcon from "@material-design-icons/svg/round/emoji_emotions.svg";
+
+export default {
+    name: "About",
+    description: "Information about me",
+    icon: SmileyIcon,
+    path: "/about",
+    component: () => { return (
         <>
             <div class="mb-6">
                 <h1 class="text-4xl">Who am I? Good question!</h1>
@@ -18,5 +24,5 @@ export default function() {
                 <p>As for genres, I'm a big fan of Sandbox-style games, but I also really like Rhythm games.</p>
             </div>
         </>
-    )
+    )}
 }

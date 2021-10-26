@@ -1,20 +1,27 @@
-export default function() {
-    return (
+import Hyperlink from "../components/Hyperlink"
+import HomeIcon from "@material-design-icons/svg/round/home.svg";
+
+export default {
+    name: "Index",
+    description: "Main page of the site",
+    icon: HomeIcon,
+    path: "/",
+    component: () => { return (
         <>
             <div class="mb-6">
                 <h1 class="text-4xl">Beef's website</h1>
-                Welcome to my site!
+                <p>Welcome to my site!</p>
             </div>
 
             <div class="mb-6">
                 <h2 class="text-2xl">I swear to god Beef you rewrite this website every month</h2>
-                Yes, I know, I know... I plan to keep this (5th) variant for longer, as it is written sanely and uses a wonderful combo of <a class="underline text-dark-50 underline-dark-50 dark:(text-light-50 underline-light-50)" href="//vitejs.dev/" target="_blank">Vite</a>, <a class="underline text-dark-50 underline-dark-50 dark:(text-light-50 underline-light-50)" href="//solidjs.com/" target="_blank">SolidJS</a> and <a class="underline text-dark-50 underline-dark-50 dark:(text-light-50 underline-light-50)" href="//windicss.org/" target="_blank"> Windi</a>. 
+                <p>Yes, I know, I know... I plan to keep this (5th) variant for longer, as it is written sanely and uses a wonderful combo of <Hyperlink href="//vitejs.dev" target="_blank">Vite</Hyperlink>, <Hyperlink href="//solidjs.com" target="_blank">SolidJS</Hyperlink> and <Hyperlink href="//windicss.org" target="_blank">WindiCSS</Hyperlink>.</p> 
             </div>
 
             <div class="mb-6">
                 <h2 class="text-2xl">I am very bad at giving index pages content</h2>
-                There'll probably be an MOTD or something here soon™
+                <p>There'll probably be an MOTD or something here soon™</p>
             </div>
         </>
-    )
+    )}
 }
