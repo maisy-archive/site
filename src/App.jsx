@@ -14,7 +14,7 @@ function App() {
     return ( 
         <div class="font-mono h-screen w-screen flex bg-light-400 dark:(bg-dark-400 text-white) transition-colors <md:flex-col">
             <Navbar routes={routesArray}/>
-            <div class="px-4 py-4">
+            <div class="px-4 py-4 w-full h-full">
                 <Routes />
             </div>
         </div>

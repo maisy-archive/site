@@ -3,7 +3,7 @@ import ThemeSwitch from "./ThemeSwitch";
 
 export default function({ routes }) {
     return (
-        <div class="flex flex-col px-2 py-2 shadow-md h-screen w-10 bg-light-900 dark:bg-dark-900 transition-colors <md:h-10 <md:w-screen <md:flex-row">
+        <div class="flex flex-col px-2 py-2 shadow-md h-screen w-10 bg-light-900 dark:bg-dark-900 transition-colors <md:h-10 <md:w-screen <md:flex-row <md:sticky">
             {routes.map((route) => function() {
                 if(!route.icon) { return; }
                 return (

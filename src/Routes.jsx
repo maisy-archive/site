@@ -7,39 +7,20 @@ import BlogRoute from "./routes/Blog";
 import CreditsRoute from "./routes/Credits";
 import NotFoundRoute from "./routes/NotFound";
 
-// TODO: fix default export jank
 export const routesArray = [
-    {
-        path: IndexRoute.path,
-        component: IndexRoute.component,
-        name: IndexRoute.name,
-        icon: IndexRoute.icon,
-    },
-    {
-        path: AboutRoute.path,
-        component: AboutRoute.component,
-        name: AboutRoute.name,
-        icon: AboutRoute.icon,
-    },
-    {
-        path: BlogRoute.path,
-        component: BlogRoute.component,
-        name: BlogRoute.name,
-        icon: BlogRoute.icon,
-    },
+    IndexRoute,AboutRoute,BlogRoute,CreditsRoute,NotFoundRoute,
     {
         path: "/blog/:id",
-        component: lazy(() => import("./routes/[article]")),
+        component: lazy(() => import("./routes/[articles]/Index")),
     },
+]
+
+export const featuredArticles = [
     {
-        path: CreditsRoute.path,
-        component: CreditsRoute.component,
-        name: CreditsRoute.name,
-        icon: CreditsRoute.icon,
-    },
-    {
-        path: NotFoundRoute.path,
-        component: NotFoundRoute.component,
-        name: NotFoundRoute.name,
+        name: "My suffering with solid-app-router",
+        description: "And why you should use it",
+        tags: ["webdev", "rant"],
+        date: "26th October 2021",
+        path: "/blog/solidrouterrant",
     }
 ]
