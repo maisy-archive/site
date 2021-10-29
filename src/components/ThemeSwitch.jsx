@@ -18,6 +18,6 @@ export default function () {
             </button>
         
             <img src={dark} class="dark:(filter invert) transition-all" />
-      </div>
+        </div>
     )
 }

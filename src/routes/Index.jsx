@@ -2,6 +2,7 @@ import Hyperlink from "../components/Hyperlink"
 import HomeIcon from "@material-design-icons/svg/round/home.svg";
 
 export default {
+    type: "page",
     name: "Index",
     description: "Main page of the site",
     icon: HomeIcon,

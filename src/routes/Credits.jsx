@@ -2,6 +2,7 @@ import EngineeringIcon from "@material-design-icons/svg/round/engineering.svg";
 import Hyperlink from "../components/Hyperlink";
 
 export default {
+    type: "page",
     name: "Credits",
     description: "People that helped with this site",
     icon: EngineeringIcon,

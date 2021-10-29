@@ -1,4 +1,5 @@
 export default {
+    type: "page",
     name: "NotFound",
     description: "404 page.",
     path: "/*all",

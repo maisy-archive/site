@@ -1,6 +1,7 @@
 import SmileyIcon from "@material-design-icons/svg/round/emoji_emotions.svg";
 
 export default {
+    type: "page",
     name: "About",
     description: "Information about me",
     icon: SmileyIcon,
