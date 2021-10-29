@@ -11,7 +11,7 @@ function App() {
     const Routes = useRoutes(routesArray);
 
     return ( 
-        <div class="font-mono flex w-screen h-screen bg-light-400 dark:(bg-dark-400 text-white) transition-colors <md:flex-col">
+        <div class="font-default font-medium flex w-screen h-screen bg-light-400 dark:(bg-dark-400 text-white) transition-colors <md:flex-col">
             <Navbar routes={routesArray}/>
             <div class="px-4 py-4 w-full overflow-y-auto">
                 <Routes />
