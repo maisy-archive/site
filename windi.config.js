@@ -1,7 +1,7 @@
 export default {
     theme: {
         fontFamily: {
-            default: ["Gotham Light"],
+            default: ["Oxygen"],
             pain: ["Permanent Marker"],
             mono: ["Oxygen Mono"]
         }
