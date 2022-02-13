@@ -1,0 +1,24 @@
+{
+  "name": "beef-site-ts",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Beef's website, but SolidTS, Windi and Vite.",
+  "scripts": {
+    "start": "vite",
+    "dev": "vite",
+    "build": "vite build",
+    "serve": "vite preview"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^4.5.5",
+    "vite": "^2.8.0",
+    "vite-plugin-solid": "^2.2.5"
+  },
+  "dependencies": {
+    "solid-app-router": "^0.2.1",
+    "solid-js": "^1.3.7",
+    "vite-plugin-windicss": "^1.7.0",
+    "windicss": "^3.4.3"
+  }
+}
