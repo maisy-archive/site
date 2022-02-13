@@ -1,22 +1,21 @@
 import { Route } from "../def";
 import Header from "../components/Header";
-import Code from "../components/Code";
 
 export default {
     name: "Home",
     path: "/",
     component: () => {
         return (
-            <div>
-                <Header type="h1">Home</Header>
-                <Header type="h2">Home</Header>
-                <Header type="h3">Home</Header>
-                <Header type="h4">Home</Header>
-                <Header type="h5">Home</Header>
-                <Header type="h6">Home</Header>
-                <Code>Code</Code>
-                <p><button onClick={() => { let root = document.getElementById("root"); if(root?.classList.contains("dark")) { root.classList.remove("dark") } else { root?.classList.add("dark") } }}>switch theme</button></p>
-            </div>
+            <>
+                <div class="container mx-auto mt-10 text-center">
+                    <Header type="h1">Hey! I'm Beef.</Header>
+                    <p class="text-2xl mb-10">Welcome to my site!</p>
+
+                    <Header type="h6">Here are some of the things I do:</Header>
+                    <p>There will be cool card components here soon</p>
+                    <p class="text-xs">Trust me it'll be really cool</p>
+                </div>
+            </>
         );
     },
 } as Route;
