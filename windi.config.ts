@@ -14,12 +14,15 @@ export default defineConfig({
         colors: {
             transparent: "transparent",
             current: "currentColor",
-            "dark-primary": "#111D13", // Dark Jungle Green
-            "dark-secondary": "#415D43", // Hunter Green
-            "dark-tertiary": "#709775", // Russian Green
-            "light-primary": "#AFD4B3", // Turquoise Green
-            "light-secondary": "#A1CCA5", // Eton Blue
-            "light-tertiary": "#8FB996" // Dark Sea Green
+            "dark-primary": "#212529", // Eerie Black
+            "dark-secondary": "#343A40", // Onyx
+            "dark-tertiary": "#495057", // Davys Grey
+            "dark-quarternary": "#6C757D", // Sonic Silver
+            "muted": "#ADB5BD", // Cadet Blue Crayola
+            "light-primary": "#F8F9FA", // Cultured
+            "light-secondary": "#E9ECEF", // Cultured
+            "light-tertiary": "#DEE2E6", // Gainsboro
+            "light-quarternary": "#CED4DA", // Light Gray
         }
     },
 })
