@@ -1,0 +1,17 @@
+import { NavLink } from "solid-app-router";
+
+interface NavbarItemProps {
+    children?: string;
+    className?: string;
+    href: string;
+    src: string;
+    alt: string;
+}
+
+export default ({ children, className, href, src, alt }: NavbarItemProps) => {
+    return (
+        <NavLink className="md:mb-2 <md:mr-2" href={href} end>
+            <img className="transition-all hover:(opacity-70) dark:(filter invert)" src={src} alt={alt}/>
+        </NavLink>
+    );
+};

@@ -17,6 +17,7 @@ export default {
                     <p>There will be cool card components here soon</p>
                     <p className="text-xs">Trust me it'll be really cool</p>
                     <p className="text-xs opacity-50">I still haven't got around to implementing these</p>
+                    <p className="text-xs opacity-25">I promise I'll do it in the next commit</p>
                 </div>
             </>
         );
