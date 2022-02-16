@@ -23,6 +23,7 @@ export default defineConfig({
             "light-secondary": "#E9ECEF", // Cultured
             "light-tertiary": "#DEE2E6", // Gainsboro
             "light-quarternary": "#CED4DA", // Light Gray
+            "accent": "#09bc8a" // Mountain Meadow
         }
     },
 })
