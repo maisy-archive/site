@@ -26,7 +26,7 @@ export default {
                     <p className="text-xs">Trust me it'll be really cool</p>
                     <p className="text-xs opacity-50">I still haven't got around to implementing these</p>
                     <p className="text-xs opacity-25">I promise I'll do it in the next commit</p> */}
-                    <div className="flex md:flex-row <md:flex-col mt-4">
+                    <div className="flex lg:flex-row <lg:flex-col mt-4">
                         <Card name="Programming" description="I enjoy programming in TypeScript, JavaScript, but occasionally other languages. You can find all of my projects either on my GitHub or on the Projects page of this site." icon={CodeIcon}/>
                         <Card name="Android" description="Another of my hobbies is rooting Android phones, as well as other shenanigans relating to the OS. Currently, I own a Google Pixel 5, and I've bricked it once. I hope that'll be the only time..." icon={AndroidIcon}/>
                         <Card name="Hardware" description="Hardware mods are also fun! Building my own PCs are what I am mainly versed in. Most recently, I installed a new graphics card in my PC, but I've fixed a few iPhones (very stressfully)." icon={HardwareIcon}/>
