@@ -1,4 +1,4 @@
-import { Route } from "../def";
+import { PageRoute } from "../def";
 import Header from "../components/Header";
 import HomeIcon from "@material-design-icons/svg/round/home.svg";
 import CodeIcon from "@material-design-icons/svg/round/code.svg";
@@ -35,4 +35,4 @@ export default {
             </>
         );
     },
-} as Route;
+} as PageRoute;

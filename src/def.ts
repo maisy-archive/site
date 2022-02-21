@@ -1,9 +1,17 @@
 import { Component } from "solid-js";
 
-export interface Route {
+export type Route = {
     name: string;
     path: string;
-    icon?: string;
-
     component: () => Component;
+}
+
+export type PageRoute = Route & {
+    icon?: string;
+}
+
+export type ArticleRoute = Route & {
+    description: string;
+    date: Date;
+    tags: string[];
 }

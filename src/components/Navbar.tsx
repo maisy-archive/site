@@ -1,10 +1,10 @@
-import { Route } from "../def";
+import { PageRoute } from "../def";
 import NavbarItem from "./NavbarItem";
 import ThemeToggle from "./ThemeToggle";
 
 interface NavbarProps {
     children?: string;
-    routes: Route[];
+    routes: PageRoute[];
 }
 
 export default ({ children, routes }: NavbarProps) => {
