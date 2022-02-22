@@ -9,9 +9,9 @@ interface ThemeToggleProps {
 
 export default ({ children, className }: ThemeToggleProps) => {
     return (
-        <div className="transition-all absolute md:mb-2 md:bottom-0 <md:mr-2 <md:right-0 hover:(opacity-70)" onClick={toggleTheme}>
-            <img className="block dark:(opacity-0 hidden)" src={DarkModeIcon} />
-            <img className="hover:(opacity-70) hidden dark:(opacity-100 block filter invert)" src={LightModeIcon} />
+        <div className="transition-all md:mt-auto <md:ml-auto hover:(opacity-70)" onClick={toggleTheme}>
+            <img className="block h-full w-full dark:(opacity-0 hidden)" src={DarkModeIcon} />
+            <img className="hover:(opacity-70) h-full w-full hidden dark:(opacity-100 block filter invert)" src={LightModeIcon} />
         </div>
     );
 };

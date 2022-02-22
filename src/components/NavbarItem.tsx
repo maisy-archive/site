@@ -11,7 +11,7 @@ interface NavbarItemProps {
 export default ({ children, className, href, src, alt }: NavbarItemProps) => {
     return (
         <NavLink className="md:mb-2 <md:mr-2" href={href} end>
-            <img className="transition-all hover:(opacity-70) dark:(filter invert)" src={src} alt={alt}/>
+            <img className="transition-all h-full w-full hover:(opacity-70) dark:(filter invert)" src={src} alt={alt}/>
         </NavLink>
     );
 };
