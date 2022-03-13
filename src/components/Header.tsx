@@ -5,7 +5,7 @@ interface HeaderProps {
 }
 
 export default ({ children, className, type }: HeaderProps) => {
-    const baseClasses = `font-header ${className ? className : ""}`
+    const baseClasses = `font-header${className ? " " + className : ""}`
     switch(type) {
         case "h1":
             return (
