@@ -5,6 +5,6 @@ interface CodeProps {
 
 export default ({ children, className }: CodeProps) => {
     return (
-        <code className={`bg-light-secondary text-dark-primary font-mono rounded dark:(bg-dark-secondary text-light-primary) ${className}`}>{children}</code>
+        <code className={`bg-light-secondary text-dark-primary font-mono rounded dark:(bg-dark-secondary text-light-primary) ${className ? className : ""}`}>{children}</code>
     );
 };

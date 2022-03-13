@@ -8,9 +8,6 @@ export default defineConfig({
             header: ["Poppins"],
             mono: ["JetBrains Mono"]
         },
-        shortcuts: {
-            "header": "font-header text-8xl"
-        },
         colors: {
             transparent: "transparent",
             current: "currentColor",
