@@ -35,6 +35,14 @@ export default ({ src }: ArticleRendererProps) => {
                 .solidown-markdown-root p {
                     margin-bottom: 0.5rem;
                 }
+                .solidown-markdown-root a {
+                    color: #09bc8a;
+                }
+                .solidown-markdown-root table,thead,th,td,tr {
+                    border: 1px ridge #ADB5BD;
+                    padding: 2px;
+                    text-align: center;
+                }
             `}
             src={src}
         />

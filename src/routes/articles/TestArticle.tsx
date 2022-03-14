@@ -10,7 +10,7 @@ export default {
     component: () => {
         return (
             <div>
-                <ArticleRenderer src={`/articles/${document.location.pathname.slice(10)}.md`}/>
+                <ArticleRenderer src="/articles/TestArticle.md"/>
             </div>
         )
     }
