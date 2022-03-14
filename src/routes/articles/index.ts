@@ -1,7 +1,8 @@
 import { ArticleRoute } from "../../def";
 
+import WhyRewriteYourSite from "./WhyRewriteYourSite";
 import TestArticle from "./TestArticle";
 
 export default [
-    TestArticle
+    WhyRewriteYourSite,TestArticle
 ] as ArticleRoute[];
