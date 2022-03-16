@@ -1,14 +1,20 @@
+# Beef's website
+
 ## Usage
 
-Those templates dependencies are maintained via [pnpm](https://pnpm.io) via `pnpm up -Lri`.
+### Installation
 
-This is the reason you see a `pnpm-lock.yaml`. That being said, any package manager will work. This file can be safely be removed once you clone a template.
-
+Before running any of the available scripts, install the dependencies:
 ```bash
-$ npm install # or pnpm install or yarn install
+pnpm install # or npm install or yarn install, with limited support
 ```
 
-### Learn more on the [Solid Website](https://solidjs.com) and come chat with us on our [Discord](https://discord.com/invite/solidjs)
+### Updating
+
+You can update the site's dependencies via [pnpm](https://pnpm.io):
+```bash
+pnpm up -Lr
+```
 
 ## Available Scripts
 
@@ -19,16 +25,16 @@ In the project directory, you can run:
 Runs the app in the development mode.<br>
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-The page will reload if you make edits.<br>
+The page will hot reload if you make edits.<br>
 
 ### `npm run build`
 
-Builds the app for production to the `dist` folder.<br>
-It correctly bundles Solid in production mode and optimizes the build for the best performance.
+Builds the site for production to the `dist` folder.<br>
+It correctly bundles Solid and Windi in production mode and optimizes the build for the best performance.
 
 The build is minified and the filenames include the hashes.<br>
-Your app is ready to be deployed!
+The site is ready to be deployed!
 
 ## Deployment
 
-You can deploy the `dist` folder to any static host provider (netlify, surge, now, etc.)
+You can deploy the `dist` folder to any static host provider (vercel, netlify, surge, now, etc.)
