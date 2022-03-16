@@ -30,7 +30,7 @@ Here is the [first working commit](https://site-jlflzgxce-beefers.vercel.app/) a
 At the time of writing, v4 is the current Production build. It is when I started to take webdev quite seriously - I felt the need for a real portfolio. Unfortunately, v4 never really quite met this aspect - forever remaining with placeholder text on the front page. I am still very proud of it, being written using SolidJS, styled with WindiCSS and bundled with Vite.
 The first 2 commits (totalling 4 deployments) did not work. As always, here is the [first working commit](https://site-jh5zqygpw-beefers.vercel.app/) and the [latest commit](https://site-git-v4-beefers.vercel.app/).
 
-### Version 5 aka the `master` branch
+### Version 5
 
 The version you are currently looking at! Feast your eyes upon it's beauty - I'm kidding, of course. Once again, I'm very proud of this version. It is built using a similar tech stack to v4, with a minor alteration - it uses TypeScript! I have also made sure that it is maintainable. Hopefully, it never makes me want to fully rewrite it, but no promises. Here is the [first commit](https://site-avz3yew0y-beefers.vercel.app/), the [first restyling commit](https://site-8hxubuf83-beefers.vercel.app/), the [second restyling commit](https://site-ju02v5g2r-beefers.vercel.app/) (which brought it close to what it is today) and the [latest commit](https://site-git-master-beefers.vercel.app/).
 
@@ -43,6 +43,6 @@ The version you are currently looking at! Feast your eyes upon it's beauty - I'm
 | v2          	| [Here](https://site-9zgoiir3s-rem-my.vercel.app/)             	| [Here](https://site-git-v2-beefers.vercel.app/)     	| Experimented with "advanced" styling - Dracula theme and SvelteKit.                                                                              	|
 | v3          	| [Here](https://site-jlflzgxce-beefers.vercel.app/)            	| [Here](https://site-git-v3-beefers.vercel.app/)     	| Dead within 6 (4 meaningful) commits. Similar styling to v2, used Svelte and Astro.                                                              	|
 | v4          	| [Here](https://site-jh5zqygpw-beefers.vercel.app/)            	| [Here](https://site-git-v4-beefers.vercel.app/)     	| Started to take webdev seriously, felt the need for a real portfolio. Written using SolidJS, styled with WindiCSS and bundled with Vite.         	|
-| v5          	| [Here](https://site-avz3yew0y-beefers.vercel.app/)            	| [Here](https://site-git-master-beefers.vercel.app/) 	| Current version! Very proud - written using the same tech stack as v4, but with TypeScript! Should be maintainable, preventing further rewrites. 	|
+| v5          	| [Here](https://site-avz3yew0y-beefers.vercel.app/)            	| [Here](https://site-git-v5-beefers.vercel.app/) 	| Current version! Very proud - written using the same tech stack as v4, but with TypeScript! Should be maintainable, preventing further rewrites. 	|
 
 <sub>On a different note - remind me to fix this table styling...</sub>
