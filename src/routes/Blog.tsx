@@ -1,5 +1,5 @@
 import { PageRoute } from "../def";
-import BlogIcon from "@material-design-icons/svg/round/rss_feed.svg"
+import BlogIcon from "@material-design-icons/svg/round/table_rows.svg"
 
 import Header from "../components/Header";
 import ArticleCard from "../components/ArticleCard";
