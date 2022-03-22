@@ -1,17 +1,17 @@
 import Solidown from "solidown";
 
-interface ArticleRendererProps {
+interface MarkdownProps {
     children?: string;
     src: string;
 }
 
-export default ({ src }: ArticleRendererProps) => {
+export default ({ src }: MarkdownProps) => {
     return (
         <Solidown
             children=""
             loading={
                 <div class="text-center mt-20">
-                    <h1 class="text-3xl">Article content loading... please wait!</h1>
+                    <h1 class="text-3xl">Markdown loading... please wait!</h1>
                     <h2 class="text-2xl">This process may be slow depending on your connection.</h2>
                 </div>
             }

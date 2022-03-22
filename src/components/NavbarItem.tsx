@@ -5,7 +5,7 @@ interface NavbarItemProps {
     className?: string;
     href: string;
     src: string;
-    alt: string;
+    alt?: string;
 }
 
 export default ({ children, className, href, src, alt }: NavbarItemProps) => {

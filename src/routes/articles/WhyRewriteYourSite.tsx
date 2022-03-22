@@ -1,4 +1,4 @@
-import ArticleRenderer from "../../components/ArticleRenderer";
+import Markdown from "../../components/Markdown";
 import { ArticleRoute } from "../../def";
 
 export default {
@@ -10,7 +10,7 @@ export default {
     component: () => {
         return (
             <div>
-                <ArticleRenderer src="/articles/WhyRewriteYourSite.md"/>
+                <Markdown src="/articles/WhyRewriteYourSite.md"/>
             </div>
         )
     }
