@@ -12,9 +12,11 @@ export default {
     component: () => {
         return (
             <>
-                <div className="container mx-auto mt-10 text-center">
-                    <Header type="h1" className="mb-4">Blog</Header>
-                    <p className="text-2xl">Here are the articles I've written.</p>
+                <div className="container mx-auto mt-4 text-center">
+                    <div className="mb-2">
+                        <Header type="h1" className="mb-4">Blog</Header>
+                        <Header type="h6">Here are the articles I've written.</Header>
+                    </div>
                     <div class="container flex flex-col">
                         {articlesArray.map((article) => function() {
                             return (
