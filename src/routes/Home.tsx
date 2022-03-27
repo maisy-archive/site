@@ -24,7 +24,7 @@ export default {
                         <Header type="h6">Welcome to my site!</Header>
                     </div>
 
-                    <p className="mb-6">I'm a student from the UK who loves to mess with anything related to technology - be it programming, <span className="line-through">bricking</span> rooting my phones, or hardware-based projects, I'm involved.</p>
+                    <p className="mb-4">I'm a student from the UK who loves to mess with anything related to technology - be it programming, <span className="line-through">bricking</span> rooting my phones, or hardware-based projects, I'm involved.</p>
 
                     <div className="mb-2">
                         <Header type="h6" className="mb-2">Here are some things about me:</Header>
