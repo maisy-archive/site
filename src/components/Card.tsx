@@ -1,7 +1,8 @@
+import { JSX } from "solid-js";
 import Header from "./Header";
 
 interface CardProps {
-    children?: string;
+    children?: JSX.Element[] | JSX.Element;
     className?: string;
     name: string;
     description: string;

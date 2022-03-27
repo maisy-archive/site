@@ -1,7 +1,9 @@
+import { JSX } from "solid-js";
+
 import { NavLink } from "solid-app-router";
 
 interface NavbarItemProps {
-    children?: string;
+    children?: JSX.Element[] | JSX.Element;
     className?: string;
     href: string;
     src: string;

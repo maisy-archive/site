@@ -1,7 +1,9 @@
+import { JSX } from "solid-js";
+
 import Solidown from "solidown";
 
 interface MarkdownProps {
-    children?: string;
+    children?: JSX.Element[] | JSX.Element;
     src: string;
 }
 

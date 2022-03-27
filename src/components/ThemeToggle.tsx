@@ -1,9 +1,11 @@
+import { JSX } from "solid-js";
+
 import DarkModeIcon from "@material-design-icons/svg/round/dark_mode.svg";
 import LightModeIcon from "@material-design-icons/svg/round/light_mode.svg";
 import { toggleTheme } from "../lib";
 
 interface ThemeToggleProps {
-    children?: string;
+    children?: JSX.Element[] | JSX.Element;
     className?: string;
 }
 

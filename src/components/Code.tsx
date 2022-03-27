@@ -1,5 +1,7 @@
+import { JSX } from "solid-js";
+
 interface CodeProps {
-    children?: string;
+    children?: JSX.Element[] | JSX.Element;
     className?: string;
 }
 

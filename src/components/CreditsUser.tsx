@@ -1,5 +1,7 @@
+import { JSX } from "solid-js";
+
 interface CreditsUserProps {
-    children?: string;
+    children?: JSX.Element[] | JSX.Element;
     className?: string;
     username: string;
 }

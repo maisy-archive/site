@@ -1,9 +1,11 @@
+import { JSX } from "solid-js";
+
 import { PageRoute } from "../def";
 import NavbarItem from "./NavbarItem";
 import ThemeToggle from "./ThemeToggle";
 
 interface NavbarProps {
-    children?: string;
+    children?: JSX.Element[] | JSX.Element;
     routes: PageRoute[];
 }
 

@@ -1,7 +1,7 @@
-import { NavLink } from "solid-app-router";
+import { JSX } from "solid-js";
 
 interface PillProps {
-    children?: string;
+    children?: JSX.Element[] | JSX.Element;
     className?: string;
     src: string;
     alt?: string;

@@ -1,9 +1,10 @@
+import { JSX } from "solid-js";
 import Header from "./Header";
 import DateIcon from "@material-design-icons/svg/round/schedule.svg";
 import { NavLink } from "solid-app-router";
 
 interface ArticleCardProps {
-    children?: string;
+    children?: JSX.Element[] | JSX.Element;
     className?: string;
     path: string;
     name: string;
