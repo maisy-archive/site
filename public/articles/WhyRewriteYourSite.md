@@ -44,5 +44,3 @@ The version you are currently looking at! Feast your eyes upon it's beauty - I'm
 | v3          	| [Here](https://site-jlflzgxce-beefers.vercel.app/)            	| [Here](https://site-git-v3-beefers.vercel.app/)     	| Dead within 6 (4 meaningful) commits. Similar styling to v2, used Svelte and Astro.                                                              	|
 | v4          	| [Here](https://site-jh5zqygpw-beefers.vercel.app/)            	| [Here](https://site-git-v4-beefers.vercel.app/)     	| Started to take webdev seriously, felt the need for a real portfolio. Written using SolidJS, styled with WindiCSS and bundled with Vite.         	|
 | v5          	| [Here](https://site-avz3yew0y-beefers.vercel.app/)            	| [Here](https://site-git-v5-beefers.vercel.app/) 	| Current version! Very proud - written using the same tech stack as v4, but with TypeScript! Should be maintainable, preventing further rewrites. 	|
-
-<sub>On a different note - remind me to fix this table styling...</sub>

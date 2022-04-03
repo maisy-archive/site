@@ -41,7 +41,7 @@ export default ({ src }: MarkdownProps) => {
                     color: #09bc8a;
                 }
                 .solidown-markdown-root table,thead,th,td,tr {
-                    border: 1px ridge #ADB5BD;
+                    background-color: #ADB5BD11;
                     padding: 2px;
                     text-align: center;
                 }
