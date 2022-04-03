@@ -16,10 +16,10 @@ function App() {
     const Routes = useRoutes(routesArray.concat(articlesArray));
 
     return (
-        <div className="bg-light-primary text-dark-primary font-default font-medium flex md:(flex-row) <md:(flex-col) w-screen h-screen transition-all dark:(bg-dark-primary text-light-primary)">
-            <Navbar routes={routesArray}/>
-            <div className="px-4 py-4 w-full overflow-y-auto">
-                <Routes/>
+        <div className="bg-light-primary text-dark-primary font-default font-medium flex flex-col w-screen h-screen transition-all dark:(bg-dark-primary text-light-primary)">
+            <div className="w-full h-full overflow-y-auto">
+                <Navbar routes={routesArray}/>
+                <div className="mt-18 mb-2 mx-4"><Routes/></div>
             </div>
         </div>
     );

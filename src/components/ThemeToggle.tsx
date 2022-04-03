@@ -11,7 +11,7 @@ interface ThemeToggleProps {
 
 export default ({ children, className }: ThemeToggleProps) => {
     return (
-        <div className="transition-all md:mt-auto <md:ml-auto hover:(opacity-70)" onClick={toggleTheme}>
+        <div className="transition-all ml-auto hover:(opacity-70)" onClick={toggleTheme}>
             <img className="block h-full w-full dark:(opacity-0 hidden)" src={DarkModeIcon} />
             <img className="hover:(opacity-70) h-full w-full hidden dark:(opacity-100 block filter invert)" src={LightModeIcon} />
         </div>

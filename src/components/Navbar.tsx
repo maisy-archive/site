@@ -13,7 +13,7 @@ interface NavbarProps {
 
 export default ({ children, routes }: NavbarProps) => {
     return (
-        <div className="bg-light-tertiary text-dark-primary flex flex-col px-2 py-2 h-screen w-10 <md:w-screen <md:h-10 <lg:w-15 <md:flex-row shadow shadow-light-tertiary transition-all dark:(bg-dark-secondary text-light-primary shadow-dark-secondary)">
+        <div className=" bg-light-tertiary text-dark-primary z-50 fixed left-0 right-0 mt-2 mx-auto flex flex-row px-2 py-2 w-max h-15 rounded-lg border-2 border-light-quarternary transition-all dark:(bg-dark-secondary text-light-primary border-dark-tertiary)">
             {routes.map((route) => function() {
                 if(!route.icon) return;
                 return (
