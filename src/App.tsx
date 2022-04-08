@@ -16,9 +16,9 @@ function App() {
     const Routes = useRoutes(routesArray.concat(articlesArray));
 
     return (
-        <div className="bg-light-primary text-dark-primary font-default font-medium flex md:(flex-row) <md:(flex-col) w-screen h-screen transition-all dark:(bg-dark-primary text-light-primary)">
+        <div className="font-default font-medium flex md:(flex-row) <md:(flex-col) transition-colors bg-light-primary text-dark-primary dark:(bg-dark-primary text-light-primary)">
             <Navbar routes={routesArray}/>
-            <div className="px-4 py-4 w-full overflow-y-auto">
+            <div className="px-4 py-4 w-full h-full overflow-y-auto">
                 <Routes/>
             </div>
         </div>
