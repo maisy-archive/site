@@ -15,3 +15,11 @@ export type ArticleRoute = Route & {
     date: Date;
     tags: string[];
 }
+
+export interface SettingsStore {
+    darkMode: boolean;
+}
+
+declare global {
+    interface Window { SettingsStore: SettingsStore; }
+}

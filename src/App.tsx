@@ -7,6 +7,7 @@ import "virtual:windi-devtools";
 import Navbar from "./components/Navbar";
 import routesArray from "./routes";
 import articlesArray from "./routes/articles";
+import { setTheme, setupSettingsStore } from "./lib";
 
 function App() {
     // @ts-ignore
@@ -14,6 +15,9 @@ function App() {
     // I don't know why.
     // TODO: Find out why
     const Routes = useRoutes(routesArray.concat(articlesArray));
+
+    setupSettingsStore();
+    setTheme();
 
     return (
         <div className="font-default font-medium flex md:(flex-row) <md:(flex-col) transition-colors bg-light-primary text-dark-primary dark:(bg-dark-primary text-light-primary)">

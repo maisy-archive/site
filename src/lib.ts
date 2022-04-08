@@ -1,9 +1,42 @@
-// TODO: Persistent themes + media queries
+import { SettingsStore } from "./def";
+
+export function setupSettingsStore() {
+    let fetchedSettingsStore = window.localStorage.getItem("SettingsStore");
+    if (!fetchedSettingsStore) {
+        window.SettingsStore = {
+            darkMode: window.matchMedia("(prefers-color-scheme: dark)").matches,
+        }
+        window.localStorage.setItem("SettingsStore", JSON.stringify(window.SettingsStore));
+    } else {
+        window.SettingsStore = JSON.parse(fetchedSettingsStore);
+    }
+}
+
+export function setSetting(key: keyof SettingsStore, value: any) {
+    window.SettingsStore[key] = value;
+    window.localStorage.setItem("SettingsStore", JSON.stringify(window.SettingsStore));
+}
+
+export function getSetting(key: keyof SettingsStore) {
+    return window.SettingsStore[key];
+}
+
+export function setTheme() {
+    let root = document.getElementById("root");
+    if (getSetting("darkMode")) {
+        root?.classList.add("dark");
+    } else {
+        root?.classList.remove("dark");
+    }
+}
+
 export function toggleTheme() {
     let root = document.getElementById("root");
-    if (root?.classList.contains("dark")) {
+    if (getSetting("darkMode")) {
         root?.classList.remove("dark");
+        setSetting("darkMode", false);
     } else {
         root?.classList.add("dark");
+        setSetting("darkMode", true);
     }
 }
