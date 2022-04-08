@@ -28,7 +28,7 @@ export default {
 
                     <div className="mb-2">
                         <Header type="h6" className="mb-2">Here are some things about me:</Header>
-                        <div className="grid md:grid-cols-2 <md:grid-cols-1">
+                        <div className="flex flex-col">
                             <Pill src={FlagIcon} alt="Flag">I'm British</Pill>
                             <Pill src={PersonIcon} alt="Person">he/him</Pill>
                             <Pill src={SchoolIcon} alt="School">Studying Computer Science</Pill>
