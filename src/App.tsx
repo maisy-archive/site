@@ -20,9 +20,9 @@ function App() {
     setTheme();
 
     return (
-        <div className="font-default font-medium flex md:(flex-row) <md:(flex-col) transition-colors bg-light-primary text-dark-primary dark:(bg-dark-primary text-light-primary)">
+        <div className="w-screen h-screen font-default font-medium flex md:(flex-row) <md:(flex-col) transition-colors bg-light-primary text-dark-primary dark:(bg-dark-primary text-light-primary)">
             <Navbar routes={routesArray}/>
-            <div className="px-4 py-4 w-screen h-screen overflow-y-auto">
+            <div className="px-4 py-4 w-full h-full overflow-y-auto">
                 <Routes/>
             </div>
         </div>
