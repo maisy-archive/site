@@ -1,4 +1,5 @@
 import { Component } from "solid-js";
+import { setSetting, getSetting } from "./lib";
 
 export type Route = {
     name: string;
@@ -18,6 +19,7 @@ export type ArticleRoute = Route & {
 
 export interface SettingsStore {
     darkMode: boolean;
+    ergonomicMode: boolean;
 }
 
 declare global {

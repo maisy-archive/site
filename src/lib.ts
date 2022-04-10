@@ -1,14 +1,17 @@
 import { SettingsStore } from "./def";
 
+export const exampleSettingsStore: SettingsStore = {
+    darkMode: window.matchMedia("(prefers-color-scheme: dark)").matches,
+    ergonomicMode: false,
+}
+
 export function setupSettingsStore() {
     let fetchedSettingsStore = window.localStorage.getItem("SettingsStore");
     if (!fetchedSettingsStore) {
-        window.SettingsStore = {
-            darkMode: window.matchMedia("(prefers-color-scheme: dark)").matches,
-        }
+        window.SettingsStore = exampleSettingsStore;
         window.localStorage.setItem("SettingsStore", JSON.stringify(window.SettingsStore));
     } else {
-        window.SettingsStore = JSON.parse(fetchedSettingsStore);
+        window.SettingsStore = { ...exampleSettingsStore, ...JSON.parse(fetchedSettingsStore) };
     }
 }
 
