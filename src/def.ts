@@ -1,10 +1,8 @@
-import { Component } from "solid-js";
+import { RouteDefinition } from "solid-app-router";
 import { setSetting, getSetting } from "./lib";
 
-export type Route = {
+export type Route = RouteDefinition & {
     name: string;
-    path: string;
-    component: () => Component;
 }
 
 export type PageRoute = Route & {

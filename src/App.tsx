@@ -10,10 +10,6 @@ import articlesArray from "./routes/articles";
 import { getSetting, setTheme, setupSettingsStore } from "./lib";
 
 function App() {
-    // @ts-ignore
-    // I have to ignore this because tsc fails here and Vite doesn't.
-    // I don't know why.
-    // TODO: Find out why
     const Routes = useRoutes(routesArray.concat(articlesArray));
 
     setupSettingsStore();
