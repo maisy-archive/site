@@ -1,7 +1,6 @@
 ---
 import ArticleCard from "@components/ArticleCard.astro";
 import BaseLayout from "@layouts/BaseLayout.astro";
-import { Article } from "@types";
 
 const articles = await Astro.glob<Article>("./*.md");
 ---

@@ -1,17 +1,17 @@
 ---
-import { Article } from "@types";
-import { MarkdownInstance } from "astro";
+import type { MarkdownInstance } from "astro";
 import ArticleCard from "@components/ArticleCard.astro";
 import BaseLayout from "@layouts/BaseLayout.astro"
+import getProps from "@res/js/getProps";
 
 export interface Props {
 	title: string;
 }
 
-const articles = await Astro.glob<Article>("../pages/articles/*.md");
+const { title } = getProps(Astro.props);
 
-const title = Astro.props.title ?? Astro.props.content.title;
-const article = articles.find((i: MarkdownInstance<Article>) => i.frontmatter.title === title);
+const articles = await Astro.glob<Article>("../pages/articles/*.md");
+const article = articles.find((i: MarkdownInstance<Article>) => i.frontmatter.title === title)!;
 ---
 
 <BaseLayout title={title}>

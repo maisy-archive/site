@@ -46,7 +46,7 @@ The version you are looking at! I am very proud of it, as it uses an amazing tec
 
 The reason I have chosen to rewrite my website so many times is due to this simple reason - I am a perfectionist. I always find a new flaw in my site, or a new framework that would fit my site better than whatever it is currently using. Thus, I run the dreaded command:
 
-```sh
+```
 git switch --orphan <version>
 ```
 

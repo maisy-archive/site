@@ -1,15 +1,15 @@
 ---
-import "unocss-hmr-fix";
 import "@unocss/reset/tailwind.css";
-import routes from "@/routes.json";
+import routes from "@res/routes.json";
 import NavBar from "@components/NavBar.astro";
+import getProps from "@js/getProps";
 
 export interface Props {
 	title: string;
     class?: string;
 }
 
-const title = Astro.props.title ?? Astro.props.content.title;
+const { title } = getProps(Astro.props);
 ---
 
 <!DOCTYPE html>

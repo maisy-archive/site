@@ -1,27 +1,27 @@
-export type Route = {
+interface Route {
     name: string;
     path: string;
 }
 
-export type PageRoute = Route & {
+interface PageRoute extends Route {
     icon?: string;
 }
 
-export interface Article {
+interface Article {
     title: string;
     description: string;
     date: Date;
     tags: string[];
 }
 
-export interface Account {
+interface Account {
     platform: string;
     username: string;
     url?: string;
     rel?: string;
 }
 
-export interface Project {
+interface Project {
     name: string;
     description: string;
     language?: string;
